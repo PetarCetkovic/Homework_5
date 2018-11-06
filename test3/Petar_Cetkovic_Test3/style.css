@@ -1,0 +1,30 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+form{
+    width: 100%;
+    padding: 30px;
+    padding-right: 100px;
+}
+tr{
+    display: -ms-grid;
+}
+table{
+    border: 2pt solid black;
+}
+table th{
+    padding: 30px;
+    border-right: 1pt solid black;
+}
+td{
+    border: 1pt solid green;
+}
+img{
+    width: 100px;
+}
+.slike{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}

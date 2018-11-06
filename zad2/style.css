@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ #slider {
+    position: relative;
+    left: 100px;
+    width: 60%;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+#slideWrap{
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 9999%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+}    
+.slajd li{
+    position: relative;
+    height: 100%;
+    width: calc(100vw);
+    float: left;
+}   
+.slajd img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#prev, #next{
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0,0,0,0.6);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+    
+}
+#prev:hover {
+    background-color: rgba(0,0,0,0.5);
+    text-shadow: 0;
+    }
+#next:hover {
+    background-color: rgba(0,0,0,0.5);
+    text-shadow: 0;
+}
+#prev {  
+    left: 10px;
+}
+#next{
+    right: 10px;
+}
+div:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sl{
+    background-color: white;
+}
+#X{
+    position: fixed;
+    display: none;
+    top: 30px;
+    right: 100px;
+    color: red;
+    size: 30px;
+}

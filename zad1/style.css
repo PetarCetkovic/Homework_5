@@ -1,0 +1,21 @@
+input{
+    display: block;
+    height: 30px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-content: center;
+}
+.k{
+    margin-left: 20%;
+}
+.c{
+    flex-basis: 30px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
