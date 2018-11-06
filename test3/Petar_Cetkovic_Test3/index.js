@@ -118,5 +118,6 @@ function otvoriIGN(event){
         window.open(c,'_blank');
 }
 }
+//as
 
 myFunction();
