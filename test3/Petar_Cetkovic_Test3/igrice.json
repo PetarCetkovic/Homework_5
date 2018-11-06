@@ -5,7 +5,9 @@
         "datum_izlaska":"14.09.2013",
         "zanr":["akcija", "rpg"],
         "izdavac": "Rockstar",
-        "ocjena": 9.4
+        "ocjena": 9.4,
+        "IGN": "https://www.ign.com/articles/2013/09/16/grand-theft-auto-v-review"
+
     },
     {
         "slika_igre": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/God_of_War_4_cover.jpg/220px-God_of_War_4_cover.jpg",
@@ -13,7 +15,8 @@
         "datum_izlaska":"20.04.2018",
         "zanr":["rpg"],
         "izdavac": "Sony Interactive",
-        "ocjena": 9.5
+        "ocjena": 9.5,
+        "IGN": "https://www.ign.com/articles/2018/04/12/god-of-war-review"
     },
     {
         "slika_igre": "https://steamcdn-a.akamaihd.net/steam/apps/10/header.jpg?t=1528733245",
@@ -21,7 +24,8 @@
         "datum_izlaska":"19.06.1999",
         "zanr":["akcija", "pucacina"],
         "izdavac": "Valve",
-        "ocjena": 10.0
+        "ocjena": 10.0,
+        "IGN":"https://adria.ign.com/counter-strike"
     },
     {
         "slika_igre": "https://cdn.images.express.co.uk/img/dynamic/143/590x/Fortnite-Mobile-iOS-Android-release-date-930663.jpg",
@@ -29,7 +33,8 @@
         "datum_izlaska":"25.07.2017",
         "zanr":["akcija", "pucacina"],
         "izdavac": "Epic Games",
-        "ocjena": 7.2
+        "ocjena": 7.2,
+        "IGN":"https://www.ign.com/articles/2018/03/27/fortnite-battle-royale-review"
     },
     {
         "slika_igre":"https://images.g2a.com/newlayout/323x433/1x1x0/a90de042e6ae/59121d9aae653a1e6451dedb",
@@ -37,7 +42,8 @@
         "datum_izlaska":"15.9.2015",
         "zanr":["sport"],
         "izdavac": "Konami",
-        "ocjena": 8.9
+        "ocjena": 8.9,
+        "IGN":"https://www.ign.com/articles/2015/09/14/pro-evolution-soccer-2016-review"
     },
     {
         "slika_igre": "https://vignette.wikia.nocookie.net/residentevil/images/5/58/RE5_Gold_Edition.jpg/revision/latest?cb=20110921195738",
@@ -45,7 +51,8 @@
         "datum_izlaska":"05.05.2009",
         "zanr":["horor"],
         "izdavac": "Capcom",
-        "ocjena": 8.3
+        "ocjena": 8.3,
+        "IGN": "https://www.ign.com/games/resident-evil-5"
     }
 
 ]

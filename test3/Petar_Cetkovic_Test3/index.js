@@ -20,6 +20,7 @@ function unesi(igrica, broj){
     br.appendChild(document.createTextNode(broj+1));
     var slika = document.createElement("td");
     var url = document.createElement("div");
+    url.id=`${igrica.IGN}`;
     url.innerHTML = `<img class="slidze" src="${igrica.slika_igre}" alt="" title="${igrica.ime}">`;
     slika.appendChild(url)
     slika.className = "slike";
@@ -86,26 +87,10 @@ function filterItems(event){
             }
         }
     }
-        /*
-    }else if(document.getElementById("z").checked){
-        const elArray = Array.from(zanrovi);
+
+    if(document.getElementById("z").checked){
+
     }
-    elArray.forEach(function(item){
-        const elementText = item.firstChild.textContent;
-        console.log(elementText.indexOf(elementText)); 
-        if(elementText.toLowerCase().indexOf(text) != -1){
-            item.style.display="block";
-            console.log(item);
-
-        }else{
-            item.style.display="none";
-        }
-        if(oc<document.getElementById("poz").value){
-            item.style.display = "none"
-        }
-    })*/
-
-
 }
 
 getTable.addEventListener("click" , function(e){
@@ -121,8 +106,17 @@ function removeItem(event){
 
         }
     }
+    saveList();
 }
 
-
+getTable.addEventListener("click" , function(e){
+    otvoriIGN(e);
+});
+function otvoriIGN(event){
+    if(event.target.classList.contains("slidze")){
+        let c = event.target.parentElement.id;
+        window.open(c,'_blank');
+}
+}
 
 myFunction();
